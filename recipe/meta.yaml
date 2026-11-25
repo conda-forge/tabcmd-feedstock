@@ -1,13 +1,13 @@
 {% set name = "tabcmd" %}
-{% set version = "2.0.21" %}
+{% set version = "2.0.34" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tabcmd-{{ version }}.tar.gz
-  sha256: 80eebb14f92ca08ac9b7ffce7c3e5b698b3bec47ce898cfbec9f33287981ece1
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/tabcmd-{{ version }}.tar.gz
+  sha256: af2eb10d6a88e52fa060fa14a8dd4fefa4b8b0fc981a018777c2a0085add8639
 
 build:
   entry_points:
